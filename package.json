@@ -1,0 +1,26 @@
+{
+  "name": "testovoe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "playwright test --config=playwright.config.ts --project=chromium",
+    "test:chrome:headed": "playwright test --config=playwright.config.ts --project=chromium --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.47.2",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@playwright/test": "^1.47.2",
+    "@types/eslint__js": "^8.42.3",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.6.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.7.0"
+  }
+}
